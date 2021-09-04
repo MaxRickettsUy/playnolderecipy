@@ -3,7 +3,7 @@
 
     <ul class="supported-list">
         {% for site in sites %}
-        <li>{{site}}</li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://www.{{site}}">{{site}}</a></li>
         {% endfor %}
     </ul>
 {% include 'footer.html' %}
